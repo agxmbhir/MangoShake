@@ -22,7 +22,8 @@ export const Button = styled.h4`
   cursor: pointer;
  transition-duration: 0.2s;
   :hover {
-      transform: translate(3px , 3px);
+      /* transform: translate(4px); */
+      font-size:  17px;
   }
 `;
 
