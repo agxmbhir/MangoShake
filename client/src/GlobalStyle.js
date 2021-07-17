@@ -17,8 +17,8 @@ body {
     background-color: whitesmoke;
     grid-template-areas:
      'header header header header header header'
-     'main main main right right right'
-     'footer footer footer footer footer footer';
+     'main main main main right right'
+     'text text text text text text';
      grid-gap: 10px;
 }
 `

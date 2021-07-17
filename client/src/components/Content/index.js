@@ -5,8 +5,10 @@ import TestImage from '../../images/test.jpg'
 import { Wrapper, Title , Image , Text,ImgDiv } from './Content.styles'
 
 const Content = () => (
+        <>
+        <Title>Fundraiser Title Here </Title>
     <Wrapper>
-       <Title>Fundraiser Title Here </Title>
+       
 <ImgDiv>
         <Image src={TestImage}/>
 </ImgDiv>
@@ -20,6 +22,7 @@ const Content = () => (
           IPFS form Text hereInput IPFS form Text hereInput IPFS form Text hereInput 
           IPFS form Text hereInput IPFS form Text hereInput IPFS form Text hereInput IPFS form Text hereInput IPFS form Text here</Text>
     </Wrapper>
+    </>
 )
 
 export default Content

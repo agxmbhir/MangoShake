@@ -2,14 +2,14 @@ import React from 'react'
 
 
 // Components
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
 import Content from './components/Content';
-import SideBar from './components/Sidebar'
+import Progress from './components/Progress';
 const Home = () => (
     <>
     <Navbar/>
     <Content />
-    <SideBar/>
+    <Progress/>
     </>
 )
 
